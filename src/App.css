@@ -1,0 +1,28 @@
+.auth__form{
+  margin-top: calc(50vh - 50px);
+  transform: translateY(-50%);
+}
+.auth__form--main, .auth__form--thirdparty{
+  padding: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 15px;
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn--google {
+  color: rgb(0, 98, 255);
+  background-color: white;
+  border: 1px solid currentColor;
+  font-size: 17px;
+  
+}
